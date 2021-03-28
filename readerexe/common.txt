@@ -1,0 +1,13 @@
+# curl -i 127.0.0.1:8080/writeHeader
+	-i -> include protocol response headers in the output
+
+==install openserver-ssh	
+# sudo apt update
+# sudo apt install openserver-ssh
+# sudo systemctl status ssh
+
+==docker
+# sudo apt remove docker docker-engine docker.io
+# sudo systemctl start docker(start service)
+# sudo systemctl enable docker(run at startup)
+#sudo docker info
